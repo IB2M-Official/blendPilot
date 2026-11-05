@@ -1,0 +1,64 @@
+# Environment & sensitive credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.token
+secrets/
+credentials/
+
+# Blender temporary files & autosaves
+*.blend@
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Antigravity & IDE cache
+.gemini/
+.antigravity/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+tools/blender-mcp/
+
+# Logs & temp
+*.log
+tmp/
+temp/
